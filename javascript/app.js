@@ -7,15 +7,16 @@ $.ajax({
   method: 'GET',
 }).done(function(result) {
   console.log(result);
-  function basicSearch(){
-    var example = result;
-    console.log('example', example);
-  
-  
-  }
+    var example = result.response.docs;
+    for( i = 0; i < example[i].length; i++ ){
+      console.log(example[i]);
+    }
 
 
 }).fail(function(err) {
   throw err;
 });
 
+function example(){
+  
+}

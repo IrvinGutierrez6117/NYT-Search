@@ -1,0 +1,33 @@
+.jumbotron {
+    background-color: #21325a;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 40px 25px 40px;
+    display: flex;
+    justify-content: center; 
+}
+.display {
+    display: block;
+    padding: 10px 0 10px 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.card header{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.form-group {
+    font-size: 18px;
+}
+
+
+}
+

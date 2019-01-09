@@ -7,12 +7,15 @@ $.ajax({
   method: 'GET',
 }).done(function(result) {
   console.log(result);
+  function basicSearch(){
+    var example = result;
+    console.log('example', example);
+  
+  
+  }
+
+
 }).fail(function(err) {
   throw err;
 });
 
-function basicSearch(){
-  var 
-
-
-}

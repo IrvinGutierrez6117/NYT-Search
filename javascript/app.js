@@ -11,4 +11,7 @@ $.ajax({
   throw err;
 });
 
-function 
+function basicSearch(){
+  
+
+}

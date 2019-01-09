@@ -12,6 +12,7 @@ $.ajax({
 });
 
 function basicSearch(){
-  
+  var 
+
 
 }
